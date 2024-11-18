@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(61, 0, 61);
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 3rem;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+header ul li a:hover{
+    opacity: .8;
+}
+main{
+    min-height: 100vh;
+
+}
+main .container-main{
+    max-width: 1350px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+main .container-main .box{
+    width: 350px;
+    height: auto;
+    padding: 1rem;
+    border: 1px solid rgb(140, 140, 140);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+main .container-main .box img{
+    width: 100%;
+    height: 380px;
+}
+main .container-main .box a{
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 19px;
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+
+    border-radius: 10px;
+    text-align: center;
+    transition: .3s;
+}
+main .container-main .box a:hover{
+    opacity: .7;
+}
+footer{
+    background-color: gray;
+}
+footer .container-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+
+    text-align:  center;
+}
